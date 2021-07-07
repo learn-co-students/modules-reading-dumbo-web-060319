@@ -143,7 +143,7 @@ end
 ```
 
 ```ruby
-class Kid
+class Dancer
   extend MetaDancing
 end
 ```
@@ -182,7 +182,7 @@ Secondly, we had to build two separate modules that contained methods that were 
 Guess what?? There is!! We're going to refactor the two modules into one, and use nested module namespacing to clarify our code.
 
 ```ruby
-module FancyDance
+module FancyDance 
   module InstanceMethods
 
     def twirl
